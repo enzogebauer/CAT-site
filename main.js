@@ -5,7 +5,7 @@ let stars =  document.getElementById('stars');
                  let text =  document.getElementById('text');
                  let btn = document.getElementById('btn');
 
-                 window.addEventListener('scroll', function(){
+                 window.addEventListener('scroll', () => {
                     let value = window.scrollY;
                     stars.style.left = value * 0.25 + 'px';
                     moon.style.top = value * 1.05 + 'px';

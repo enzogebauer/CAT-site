@@ -6,7 +6,6 @@
           box-sizing: border-box;
           font-family: 'Poppins', sans-serif;
           scroll-behavior: smooth;
-          overflow: visible;
          
 }
 body
@@ -64,6 +63,7 @@ header ul li a.active
 }
 section
 {
+          overflow:hidden;
           position: relative;
           width: 100%;
           height: 100vh;
@@ -91,6 +91,7 @@ section img
           height: 100%;
           object-fit: cover;
           pointer-events:none;
+          
 }
 section img#moon
 {
@@ -100,12 +101,13 @@ section img#moon
 section img#mountains_front
 {
           z-index:10;
+           padding-top: 120px;
 }
 #text
 {
           right: -250px;
           position:absolute;
-          color: #fff;
+          color: rgb(255, 219, 255);
           white-space: nowrap;
           font-size:7.5vw;
           z-index:9;
