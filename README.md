@@ -1,2 +1,2 @@
 # Parallax-Scrolling-site
-Created this page using html and css for the structuring and styling and used js to create the efects of the moon,stars and mountains
+Followed a youtube tutorial and it helped me to learn more about ataching java script code to html and css files.
